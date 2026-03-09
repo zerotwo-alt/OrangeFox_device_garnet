@@ -23,7 +23,7 @@ FDEVICE="garnet"
 THIS_DEVICE=${BASH_ARGV[2]}
 
 fetch_sm84xx_common_repo() {
-	local URL=git@gitlab.com:OrangeFox/device/sm84xx-common.git;
+	local URL=https://github.com/zerotwo-alt/device-xiaomi-sm84xx-common.git;
 	local common=device/xiaomi/sm84xx-common;
 
 	if [ ! -d $common ]; then
